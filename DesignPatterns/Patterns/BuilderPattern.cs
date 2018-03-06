@@ -50,17 +50,17 @@ namespace DesignPatterns.Patterns
 
         public override void AddWater()
         {
-            soup.ingridients["water"] = "2l";
+            soup.ingredients["water"] = "2l";
         }
 
         public override void AddBase()
         {
-            soup.ingridients["base"] = "tomatoes";
+            soup.ingredients["base"] = "tomatoes";
         }
 
         public override void AddSeasoning()
         {
-            soup.ingridients["seasoning"] = "salt";
+            soup.ingredients["seasoning"] = "salt";
         }
 
         public override Soup Serve()
@@ -78,17 +78,17 @@ namespace DesignPatterns.Patterns
 
         public override void AddWater()
         {
-            soup.ingridients["water"] = "1l";
+            soup.ingredients["water"] = "1l";
         }
 
         public override void AddBase()
         {
-            soup.ingridients["base"] = "corn";
+            soup.ingredients["base"] = "corn";
         }
 
         public override void AddSeasoning()
         {
-            soup.ingridients["seasoning"] = "pepper";
+            soup.ingredients["seasoning"] = "pepper";
         }
 
         public override Soup Serve()
@@ -100,7 +100,7 @@ namespace DesignPatterns.Patterns
     class Soup
     {
         private string _name;
-        public Dictionary<string, string> ingridients = new Dictionary<string, string>();
+        public Dictionary<string, string> ingredients = new Dictionary<string, string>();
 
         public Soup(string name)
         {
