@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Patterns;
+using DesignPatterns.Patterns.AdapterPattern;
 using DesignPatterns.Patterns.FactoryMethod;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,8 @@ namespace DesignPatterns
         {
             //AbstractFactoryPattern.Run();
             //BuilderPattern.Run();
-            FactoryMethodPattern.Run();
+            //FactoryMethodPattern.Run();
+            AdapterPattern.Run();
         }
     }
 }
